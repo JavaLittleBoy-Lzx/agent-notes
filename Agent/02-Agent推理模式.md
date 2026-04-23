@@ -7,6 +7,7 @@ tags:
   - CoT
   - 面试
 source: https://mp.weixin.qq.com/s/-8oS3sLTizJw2GgLtXRfPQ
+image: assets/images/react-loop.png
 ---
 
 # Agent 推理模式：ReAct 与 CoT

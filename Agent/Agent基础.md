@@ -5,6 +5,7 @@ tags:
   - Agent基础
   - 面试
 source: https://mp.weixin.qq.com/s/FoC5Y4VWe2PaGCtdkcDhTw
+image: assets/images/agent-workflow.png
 ---
 
 # Agent 四大核心组件

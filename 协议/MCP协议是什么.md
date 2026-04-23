@@ -6,33 +6,79 @@ tags:
   - MCP
   - 面试
 source: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247483673&idx=1&sn=0010e78aece8b05388b94d0396444a03
+image: assets/images/mcp-protocol.png
 ---
 
 # MCP 协议是什么？
 
-## 题目
-
-连 MCP 协议都没玩过，还敢在简历上写精通 Agent 开发？
-
-## 核心知识点
-
-**MCP (Model Context Protocol) 协议**
-
-## 答案要点
-
-1. **MCP 是 Anthropic 提出的开放协议**，用于标准化 Agent 与外部工具/数据源的连接
-2. **解决的问题**：
-   - 之前每个工具提供商都有自己的 API 标准，互不兼容
-   - MCP 提供统一标准，Agent 只需实现一次，就能连接所有支持 MCP 的工具
-3. **MCP 的三个核心组件**：
-   - **Host**：发起操作的 AI 应用（如 Claude Desktop）
-   - **Client**：与每个工具保持 1:1 连接的客户端
-   - **Server**：暴露特定能力的轻量级程序（如 Slack Server、GitHub Server）
-
-## 类比理解
-
-**MCP 就像 USB 接口规范**——有了统一标准，任何 USB 设备都能插在任何 USB 接口上。
+> [!abstract] 一句话回答
+> **MCP（Model Context Protocol）** 是 Anthropic 提出的开放协议，标准化 AI Agent 与外部工具/数据源的连接。类比：**MCP 就是 AI 世界的 USB 接口规范**。
 
 ---
 
-tags: #AI-Agent #面试 #MCP #协议 #Anthropic
+## 🔌 USB 类比
+
+| USB 物理世界 | MCP AI 世界 |
+|-------------|-------------|
+| USB 接口标准 | MCP 协议标准 |
+| 鼠标/键盘/打印机 | 搜索API/数据库/邮件系统 |
+| 任何 USB 设备插任何 USB 接口 | 任何 Agent 连接任何 MCP 工具 |
+| 电脑不需要知道鼠标怎么造 | Agent 不需要为每个工具写独立代码 |
+
+---
+
+## 🏗️ MCP 三个核心组件
+
+```
+┌─────────────────┐
+│   AI 应用       │  ← Host（发起操作的 AI，如 Claude Desktop）
+│  (AI 应用)      │
+└───────┬─────────┘
+        │
+┌───────▼─────────┐
+│  MCP Client     │  ← 每个工具保持 1:1 连接
+│ (和每个工具通信) │
+└───────┬─────────┘
+        │
+┌───────▼─────────┐
+│  MCP Server     │  ← 暴露特定能力的轻量程序
+│ (Slack/GitHub)  │
+└─────────────────┘
+```
+
+---
+
+## ✨ MCP 解决的问题
+
+**之前：** 每个工具提供商有自己的 API 标准
+```python
+# Slack 工具
+slack_client.chat_postMessage(...)
+
+# GitHub 工具
+github_client.issues.create(...)
+```
+每次换工具都要重写集成代码。
+
+**有了 MCP：** 统一协议，一次集成，永久使用
+```python
+# 无论什么工具，都是同样的 MCP 调用方式
+mcp_client.call_tool("slack", "chat_postMessage", {...})
+mcp_client.call_tool("github", "issues_create", {...})
+```
+
+---
+
+## 🎯 面试考察点
+
+1. **MCP 是什么** — Anthropic 提出的开放协议
+2. **解决什么问题** — 标准化 Agent 与工具的连接
+3. **三个组件** — Host / Client / Server
+4. **USB 类比** — 统一接口，一次集成，永久使用
+
+---
+
+## 📚 相关面试题
+
+- [[协议/A2A和MCP区别]] — A2A vs MCP
+- [[Agent基础/Agent四大核心组件]] — 工具系统在 Agent 中的角色
