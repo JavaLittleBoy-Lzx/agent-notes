@@ -6,26 +6,10 @@ tags:
   - MCP
   - 面试
 source: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247483673&idx=1&sn=0010e78aece8b05388b94d0396444a03
-image: assets/images/mcp-protocol.png
 ---
 
-# MCP 协议是什么？
+![配图](assets/images/mcp-protocol.png)
 
-> [!abstract] 一句话回答
-> **MCP（Model Context Protocol）** 是 Anthropic 提出的开放协议，标准化 AI Agent 与外部工具/数据源的连接。类比：**MCP 就是 AI 世界的 USB 接口规范**。
-
----
-
-## 🔌 USB 类比
-
-| USB 物理世界 | MCP AI 世界 |
-|-------------|-------------|
-| USB 接口标准 | MCP 协议标准 |
-| 鼠标/键盘/打印机 | 搜索API/数据库/邮件系统 |
-| 任何 USB 设备插任何 USB 接口 | 任何 Agent 连接任何 MCP 工具 |
-| 电脑不需要知道鼠标怎么造 | Agent 不需要为每个工具写独立代码 |
-
----
 
 ## 🏗️ MCP 三个核心组件
 

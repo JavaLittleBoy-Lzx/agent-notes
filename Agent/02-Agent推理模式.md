@@ -7,23 +7,10 @@ tags:
   - CoT
   - 面试
 source: https://mp.weixin.qq.com/s/-8oS3sLTizJw2GgLtXRfPQ
-image: assets/images/react-loop.png
 ---
 
-# Agent 推理模式：ReAct 与 CoT
+![配图](assets/images/react-loop.png)
 
-> [!abstract] 一句话回答
-> **CoT** = 让 LLM 先写推理步骤再给答案（纯文字）
-> **ReAct** = CoT + 工具调用，交替输出 Thought → Action → Observation 循环
-> **ReAct 是目前 Agent 用得最广的模式**，因为它推理过程可见、又能动态利用外部工具
-
----
-
-## 🎯 面试真题（快手）
-
-> 「 Agent 推理模式有哪些？ReAct 是啥？具体是怎么实现的？」
-
----
 
 ## 🧠 核心问题：LLM 推理的根本困境
 

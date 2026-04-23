@@ -3,27 +3,12 @@ title: Agent 与 Workflow 的区别
 date: 2026-04-23
 tags:
   - Agent基础
+  - 面试
 source: https://mp.weixin.qq.com/s/FoC5Y4VWe2PaGCtdkcDhTw
-image: assets/images/agent-vs-workflow.png
 ---
 
-# Agent 与 Workflow 的区别
+![配图](assets/images/agent-vs-workflow.png)
 
-> [!abstract] 一句话回答
-> **Agent** = 自主决策，动态选择下一步；**Workflow** = 预设流程，固定路径执行。
-
----
-
-## 🔄 核心区别
-
-| | Agent | Workflow |
-|---|---|---|
-| **决策方式** | LLM 自主判断 | 预设节点，固定顺序 |
-| **执行路径** | 动态，根据结果调整 | 固定流程图 |
-| **灵活性** | 高，可应对未知场景 | 低，适合固定业务流程 |
-| **适用场景** | 复杂推理、多工具调用 | 数据处理流水线、审批流 |
-
----
 
 ## 🧠 Agent 的特点
 

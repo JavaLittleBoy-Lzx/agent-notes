@@ -5,25 +5,10 @@ tags:
   - Agent基础
   - 面试
 source: https://mp.weixin.qq.com/s/FoC5Y4VWe2PaGCtdkcDhTw
-image: assets/images/why-need-agent.png
 ---
 
-# 为什么需要 Agent
+![配图](assets/images/why-need-agent.png)
 
-> [!abstract] 一句话回答
-> 大模型虽强，但有根本局限：知识有时效、无法执行操作、无法保持状态。**Agent = LLM + 工具 + 记忆 + 规划**，弥补这些短板。
-
----
-
-## 🧠 大模型的三大根本局限
-
-| 局限 | 表现 | 例子 |
-|------|------|------|
-| **知识有时效** | 训练数据有截止日期 | 问"今天股价"，模型不知道 |
-| **无法执行操作** | 只能输出文字，不能干活 | 不能发邮件、发消息、查数据库 |
-| **无状态** | 每次对话都是独立的 | 上一步的结果，下一步记不住 |
-
----
 
 ## 🔧 为什么 Agent 能解决？
 

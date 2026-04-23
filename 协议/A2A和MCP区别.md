@@ -7,27 +7,10 @@ tags:
   - MCP
   - 面试
 source: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247483728&idx=1&sn=8feb775f055f697517d0a3ad424a8c7b
-image: assets/images/a2a-vs-mcp.png
 ---
 
-# A2A 和 MCP 区别
+![配图](assets/images/a2a-vs-mcp.png)
 
-> [!abstract] 一句话回答
-> **MCP** = Agent 用工具（类比：人怎么用电脑）**A2A** = Agent 之间聊天协作（类比：员工之间怎么沟通）。两者互补，完整的 Agent 系统通常需要同时使用。
-
----
-
-## 🆚 对比
-
-| | MCP | A2A |
-|---|---|---|
-| **全称** | Model Context Protocol | Agent to Agent Protocol |
-| **解决的问题** | Agent 如何调用外部工具 | 多个 Agent 之间如何协作 |
-| **定位** | Agent ↔ 工具/数据源 | Agent ↔ Agent |
-| **类比** | 人怎么用电脑 | 员工之间怎么开会 |
-| **典型场景** | 连接搜索API/数据库/邮件 | 多 Agent 协作完成复杂任务 |
-
----
 
 ## 🔧 MCP：Agent 的"工具箱"
 

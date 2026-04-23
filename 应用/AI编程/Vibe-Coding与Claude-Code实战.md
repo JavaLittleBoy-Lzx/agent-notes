@@ -5,25 +5,10 @@ tags:
   - 应用
   - AI编程
 source: https://mp.weixin.qq.com/s/7hodOvJCjaW_N0lbdm6nHw
-image: assets/images/vibe-coding.png
 ---
 
-# Vibe Coding 与 Claude Code 实战
+![配图](assets/images/vibe-coding.png)
 
-> [!abstract] 一句话回答
-> **AI 是放大器，不是发动机** — 有方向它放大 10 倍，没方向它放大的是 0。Vibe Coding 时代，程序员的核心任务从"写代码"变成"做决策"。
-
----
-
-## 💡 核心观点
-
-> 程序员从「我写代码」→ 「我指挥 AI 写代码」
-
-AI 是**放大器**，不是**发动机**：
-- 你有方向 → AI 放大 10 倍
-- 你没方向 → AI 放大的是 0（甚至负效果）
-
----
 
 ## 🚀 Vibe Coding 是什么？
 
