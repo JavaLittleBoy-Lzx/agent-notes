@@ -8,7 +8,7 @@ tags:
 source: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247483673&idx=1&sn=0010e78aece8b05388b94d0396444a03
 ---
 
-![配图](assets/images/mcp-protocol.png)
+![配图](assets/images/mcp-protocol-gpt2.png)
 
 
 ## 🏗️ MCP 三个核心组件

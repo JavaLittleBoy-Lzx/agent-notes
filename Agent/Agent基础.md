@@ -7,7 +7,7 @@ tags:
 source: https://mp.weixin.qq.com/s/FoC5Y4VWe2PaGCtdkcDhTw
 ---
 
-![配图](assets/images/react-loop.png)
+![配图](assets/images/react-loop-gpt2.png)
 
 
 ## 🏢 类比：公司四角色

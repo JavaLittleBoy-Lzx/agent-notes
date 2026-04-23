@@ -9,7 +9,7 @@ tags:
 source: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247483728&idx=1&sn=8feb775f055f697517d0a3ad424a8c7b
 ---
 
-![配图](assets/images/a2a-vs-mcp.png)
+![配图](assets/images/a2a-vs-mcp-gpt2.png)
 
 
 ## 🔧 MCP：Agent 的"工具箱"

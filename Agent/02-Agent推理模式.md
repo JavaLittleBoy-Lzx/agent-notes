@@ -9,7 +9,7 @@ tags:
 source: https://mp.weixin.qq.com/s/-8oS3sLTizJw2GgLtXRfPQ
 ---
 
-![配图](assets/images/react-loop.png)
+![配图](assets/images/react-loop-gpt2.png)
 
 
 ## 🧠 核心问题：LLM 推理的根本困境

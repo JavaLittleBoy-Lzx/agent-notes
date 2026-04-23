@@ -7,7 +7,7 @@ tags:
 source: https://mp.weixin.qq.com/s/FoC5Y4VWe2PaGCtdkcDhTw
 ---
 
-![配图](assets/images/agent-vs-workflow.png)
+![配图](assets/images/agent-vs-workflow-gpt2.png)
 
 
 ## 🧠 Agent 的特点

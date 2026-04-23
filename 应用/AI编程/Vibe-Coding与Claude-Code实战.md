@@ -7,7 +7,7 @@ tags:
 source: https://mp.weixin.qq.com/s/7hodOvJCjaW_N0lbdm6nHw
 ---
 
-![配图](assets/images/vibe-coding.png)
+![配图](assets/images/vibe-coding-gpt2.png)
 
 
 ## 🚀 Vibe Coding 是什么？

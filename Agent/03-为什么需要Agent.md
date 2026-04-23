@@ -7,7 +7,7 @@ tags:
 source: https://mp.weixin.qq.com/s/FoC5Y4VWe2PaGCtdkcDhTw
 ---
 
-![配图](assets/images/why-need-agent.png)
+![配图](assets/images/why-need-agent-gpt2.png)
 
 
 ## 🔧 为什么 Agent 能解决？
