@@ -1,6 +1,14 @@
-# 腾讯面试官：MCP 协议是什么？
+---
+title: MCP 协议是什么？
+date: 2026-04-23
+tags:
+  - 协议
+  - MCP
+  - 面试
+source: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247483673&idx=1&sn=0010e78aece8b05388b94d0396444a03
+---
 
-> 面试题来源：微信公众号 - 小林coding
+# MCP 协议是什么？
 
 ## 题目
 

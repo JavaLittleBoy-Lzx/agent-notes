@@ -1,7 +1,12 @@
-# Agent 四大核心组件
+---
+title: Agent 四大核心组件
+date: 2026-04-23
+tags:
+  - Agent基础
+source: https://mp.weixin.qq.com/s/FoC5Y4VWe2PaGCtdkcDhTw
+---
 
-> 来源：微信公众号 - 小林coding
-> 原文链接：https://mp.weixin.qq.com/s/FoC5Y4VWe2PaGCtdkcDhTw
+# Agent 四大核心组件
 
 ## 一句话回答
 

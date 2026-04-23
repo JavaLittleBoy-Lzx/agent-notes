@@ -1,7 +1,14 @@
-# Agent 推理模式：ReAct 与 CoT
+---
+title: Agent 推理模式：ReAct 与 CoT
+date: 2026-04-23
+tags:
+  - Agent基础
+  - ReAct
+  - CoT
+source: https://mp.weixin.qq.com/s/-8oS3sLTizJw2GgLtXRfPQ
+---
 
-> 来源：微信公众号 - 小林coding
-> 链接：https://mp.weixin.qq.com/s/-8oS3sLTizJw2GgLtXRfPQ
+# Agent 推理模式：ReAct 与 CoT
 
 ## 面试题
 

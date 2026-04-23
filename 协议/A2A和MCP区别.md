@@ -1,6 +1,15 @@
-# 阿里技术官：A2A 和 MCP 到底有什么区别？
+---
+title: A2A 和 MCP 区别
+date: 2026-04-23
+tags:
+  - 协议
+  - A2A
+  - MCP
+  - 面试
+source: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247483728&idx=1&sn=8feb775f055f697517d0a3ad424a8c7b
+---
 
-> 面试题来源：微信公众号 - 小林coding
+# A2A 和 MCP 区别
 
 ## 题目
 

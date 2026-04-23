@@ -1,7 +1,12 @@
-# Agent 与 Workflow 的区别
+---
+title: Agent 与 Workflow 的区别
+date: 2026-04-23
+tags:
+  - Agent基础
+source: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247483898&idx=1&sn=901015
+---
 
-> 来源：微信公众号 - 小林coding
-> 链接：https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247483898&idx=1&sn=901015
+# Agent 与 Workflow 的区别
 
 ## 面试题
 
